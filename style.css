@@ -25,6 +25,7 @@
     width: 500px;
     color: white;
     align-self: center;
+    text-shadow: 5px 5px #020305;
 }
 
 .CorpoBOT{
@@ -38,5 +39,17 @@
     margin: 10px;
 }
     
+.material {
+    border: white 2px solid;
+    border-radius: 50px; 
+    padding: 5px;
+     
 
+}
 
+.BoxBot {
+    border: white 5px solid;
+    border-radius: 50px; 
+    padding: 5px;
+    
+}
