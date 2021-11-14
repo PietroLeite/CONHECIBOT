@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
+  
   <body style="background-color: #152238">
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm 
@@ -206,6 +207,13 @@
   </footer>
   <!---->
 
+  <style>
+    .rw-conversation-container .rw-header{background-color:hsl(216, 77%, 49%);}
+    .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: hsl(216, 77%, 49%);}
+    .rw-launcher{background-color: hsl(216, 77%, 49%);}
+    .rw-conversation-container .rw-reply{background-color: hsl(216, 77%, 49%); border: 1px solid hsl(216, 77%, 49%);}
+</style>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -228,8 +236,14 @@
             {
               initPayload: '/greet',
               customData: { language: "en" },
-              socketUrl: "https://bf-botfront.development.agents.botfront.cloud",
-              
+              socketUrl: "164.90.253.79:5005",
+              showFullScreenButton: true,
+              title: 'ConheciBOT',  
+              subtitle: 'Diga oi para começar a conversa',
+              profileAvatar: "./src/Logo.png",
+              showMessageDate: true,
+              inputTextFieldHint: "Digite sua mensagem...",
+
               // add other props here
             },
             null
